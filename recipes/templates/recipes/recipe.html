@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div>
+        <h5>{{recipe.name}}</h5>
+        <i>description:</i>
+        <p>{{recipe.description}}</p>
+        <i>Ingridients:</i>
+        <p>{{recipe.ingridients}} </p>
+        <i>Instructions:</i>
+        <p>{{recipe.instructions}}</p>
+
+    </div>
+{% endblock content %}
